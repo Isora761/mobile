@@ -4,9 +4,10 @@
              x:Class="MangaReader.Profile_User">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image Source="{Binding Avatar}" HeightRequest="100"/>
+            <Label Text="{Binding Name}"/>
+            <Label Text="Username:"/>
+            <Label Text="{Binding Username}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

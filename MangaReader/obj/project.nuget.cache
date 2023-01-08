@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PUBITIpmhZkrhgghP12GgshYHXdb0IyUW892+7iVpFElIWrMeSuuZbYM7cvjcLDKE7YTt42XGC75p2/JGk5V9w==",
+  "dgSpecHash": "NqHi5yesMg/r3ZfyZ5TU9HsevaGOf6lTHJp/01wW8Or3fZvSbSO1VHD+ywqXLBKErur4uAlAIlZDpOGI2ZIb2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Documents\\mobile\\MangaReader\\MangaReader\\MangaReader.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader\\MangaReader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

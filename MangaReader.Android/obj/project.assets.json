@@ -2188,11 +2188,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\mobile\\MangaReader\\MangaReader.Android\\MangaReader.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader.Android\\MangaReader.Android.csproj",
       "projectName": "MangaReader.Android",
-      "projectPath": "C:\\Users\\Admin\\Documents\\mobile\\MangaReader\\MangaReader.Android\\MangaReader.Android.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader.Android\\MangaReader.Android.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\mobile\\MangaReader\\MangaReader.Android\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2213,8 +2213,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\Admin\\Documents\\mobile\\MangaReader\\MangaReader\\MangaReader.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Documents\\mobile\\MangaReader\\MangaReader\\MangaReader.csproj"
+            "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader\\MangaReader.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader\\MangaReader.csproj"
             }
           }
         }

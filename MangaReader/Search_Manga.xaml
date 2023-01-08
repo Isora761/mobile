@@ -4,13 +4,34 @@
              x:Class="MangaReader.Search_Manga"
              Title="Tìm truyện">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical">
-            <SearchBar x:Name="searchManga" Placeholder="Search Manga..." TextChanged="searchManga_TextChanged"
+        <ScrollView>
+            <StackLayout Orientation="Vertical">
+                <SearchBar x:Name="searchManga" Placeholder="Search Manga..." TextChanged="searchManga_TextChanged"
                        HorizontalOptions="Center"/>
-            <Label Text="Tìm kiếm nổi bật" FontSize="Medium" FontAttributes="Bold"/>
-            <ListView x:Name="lstManga_Searching" ItemSelected="lstManga_Searching_ItemSelected">
-                
-            </ListView>
-        </StackLayout>
+                <Label Text="Tìm kiếm nổi bật" FontSize="Medium" FontAttributes="Bold"/>
+                <ListView x:Name="lstManga_Searching" ItemSelected="lstManga_Searching_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell Height="75">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"></RowDefinition>
+                                        <RowDefinition Height="*"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="{Binding Image}" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0"/>
+                                    <Label Text="{Binding Name}" FontSize="20" Grid.Column="1" Grid.Row="0"/>
+                                    <Label Text="" Grid.Column="1" Grid.Row="1"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>

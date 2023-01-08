@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MangaReader.Tag_Page">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Frame BackgroundColor="RosyBrown" Grid.Column="0" Grid.Row="0">
+                        <Button Text="Tất cả" x:Name="btnAll" Clicked="btnAll_Clicked" TextColor="Black"/>
+                    </Frame>
+                    <Frame BackgroundColor="RosyBrown" Grid.Column="0" Grid.Row="1">
+                        <Button Text="Hanh động" x:Name="btnAction" Clicked="btnAction_Clicked" TextColor="Black"/>
+                    </Frame>
+                    <Frame BackgroundColor="RosyBrown" Grid.Column="0" Grid.Row="2">
+                        <Button Text="Lãng mạn" x:Name="btnRomance" Clicked="btnRomance_Clicked" TextColor="Black"/>
+                    </Frame>
+                    <Frame BackgroundColor="RosyBrown" Grid.Column="1" Grid.Row="0">
+                        <Button Text="Hài hước" x:Name="btnComedy" Clicked="btnComedy_Clicked" TextColor="Black"/>
+                    </Frame>
+                    <Frame BackgroundColor="RosyBrown" Grid.Column="1" Grid.Row="1">
+                        <Button Text="Học đường" x:Name="btnSchoolife" Clicked="btnSchoolife_Clicked" TextColor="Black"/>
+                    </Frame>
+                    <Frame BackgroundColor="RosyBrown" Grid.Column="1" Grid.Row="2">
+                        <Button Text="Kinh dị" x:Name="btnHorror" Clicked="btnHorror_Clicked" TextColor="Black"/>
+                    </Frame>
+                </Grid>
+                <ListView x:Name="lstOfGenre" ItemSelected="lstOfGenre_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell Height="75">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"></RowDefinition>
+                                        <RowDefinition Height="*"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="{Binding Image}" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0"/>
+                                    <Label Text="{Binding Name}" FontSize="20" Grid.Column="1" Grid.Row="0"/>
+                                    <Label Text="" Grid.Column="1" Grid.Row="1"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

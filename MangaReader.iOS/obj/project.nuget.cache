@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N2CUDCerycsx1Ao/7EjmPrIWkiKag+4zXhkJlzXw8uchbOadHSalGqse1wjrc71/Q7yb/p0SyiUkPhVbiImNsA==",
+  "dgSpecHash": "vLfHduNvs5K68RV/VJUOmoh34LIs8f+HqwkpiZjdePk0XdiZJy1ao80SmLpZKJb5rU7vuxjqD0rKsZ+qnCNtuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Documents\\mobile\\MangaReader\\MangaReader.iOS\\MangaReader.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader.iOS\\MangaReader.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

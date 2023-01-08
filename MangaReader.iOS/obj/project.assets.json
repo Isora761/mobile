@@ -1067,11 +1067,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\mobile\\MangaReader\\MangaReader.iOS\\MangaReader.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader.iOS\\MangaReader.iOS.csproj",
       "projectName": "MangaReader.iOS",
-      "projectPath": "C:\\Users\\Admin\\Documents\\mobile\\MangaReader\\MangaReader.iOS\\MangaReader.iOS.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader.iOS\\MangaReader.iOS.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\mobile\\MangaReader\\MangaReader.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1092,8 +1092,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Admin\\Documents\\mobile\\MangaReader\\MangaReader\\MangaReader.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Documents\\mobile\\MangaReader\\MangaReader\\MangaReader.csproj"
+            "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader\\MangaReader.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader\\MangaReader.csproj"
             }
           }
         }

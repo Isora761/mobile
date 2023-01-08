@@ -4,7 +4,7 @@
              x:Class="MangaReader.Home"
              Title='Manga Reader'>
     <ContentPage.ToolbarItems>
-        <ToolbarItem x:Name="ToolbarSearch" Text="Tìm kiếm"
+        <ToolbarItem x:Name="ToolbarSearch" Text="Tìm truyện"
                      Order="Primary" Priority="0" Clicked="ToolbarSearch_Clicked"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>

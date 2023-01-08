@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MangaReader.Home"
+             Title='Manga Reader'>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="ToolbarSearch" Text="Tìm kiếm"
+                     Order="Primary" Priority="0" Clicked="ToolbarSearch_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        
+        <ScrollView>
+            <StackLayout>
+                
+                <CollectionView x:Name="Banner" HeightRequest="200">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Horizontal"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell Height="150">
+                                <Image Source=""/>
+                            </ViewCell>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <StackLayout Orientation="Horizontal">
+                    <Button x:Name="btnNew" Text="Mới nhất" Clicked="btnNew_Clicked"/>
+                    <Button x:Name="btnGenre" Text="Thể loại" Clicked="btnGenre_Clicked"/>
+                    <Button x:Name="btnHot" Text="Hot nhất" Clicked="btnHot_Clicked"/>
+                </StackLayout>
+
+                <Label Text="Tất cả" TextColor="Orange" FontSize="Large" FontAttributes="Bold"/>
+                <CollectionView x:Name="lstManga" SelectionMode="Single" SelectionChanged="lstManga_SelectionChanged">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="2"
+                                 VerticalItemSpacing="5" HorizontalItemSpacing="5"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Image Source=""/>
+                            </ViewCell>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </ScrollView>
+
+
+    </ContentPage.Content>
+</ContentPage>

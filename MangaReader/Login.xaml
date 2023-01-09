@@ -2,22 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MangaReader.Login"
-             BackgroundColor="#CCFFFF">
+             BackgroundImageSource="https://w0.peakpx.com/wallpaper/562/860/HD-wallpaper-anime-landscape-stars-night-scenic-anime.jpg">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="FillAndExpand"
                      VerticalOptions="CenterAndExpand"
                      Margin="40,50"
                      Spacing="10">
-            <Image Source="https://camo.githubusercontent.com/f307774d218e6d42777e63344811e6077532511e291d58715f1d2fb7fac2b82d/68747470733a2f2f73636f6e74656e742e6673676e332d312e666e612e666263646e2e6e65742f762f7433392e33303830382d362f3332313635363030335f323036303036383936303835383839325f323136333637343836313132383432323539385f6e2e6a70673f5f6e635f6361743d313034266363623d312d37265f6e635f7369643d373330653134265f6e635f6f68633d756d543855696a79696e384158393744496461265f6e635f68743d73636f6e74656e742e6673676e332d312e666e61266f683d30305f4166423954336f42665742363072647637594852776e3379687441635a4c54684c444f7a786a4e474d4c31516851266f653d3633424643323943"
+            <Label Text="ComicCon"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   FontSize="46"
                    HorizontalOptions="Center"
-                   VerticalOptions="Center"
-                   HeightRequest="180"
-                   WidthRequest="180"
-                />
+                   Margin="0,0,0,20"/>
 
             <Frame CornerRadius="5">
                 <StackLayout>
-                    <Entry Placeholder="Username" TextColor="Black"
+                    <Entry Placeholder="Tên đăng nhập" TextColor="Black"
                    PlaceholderColor="Gray"
                            ReturnType="Next"
                            Keyboard="Email"
@@ -27,7 +27,7 @@
 
             <Frame CornerRadius="5">
                 <StackLayout>
-                    <Entry Placeholder="Password" TextColor="Black"
+                    <Entry Placeholder="Mật khẩu" TextColor="Black"
                    PlaceholderColor="Gray" IsPassword="True"
                            Keyboard="Chat"
                            x:Name="txtpassword"/>
@@ -44,10 +44,10 @@
             <Label HorizontalOptions="Center">
                 <Label.FormattedText>
                     <FormattedString>
-                        <Span Text="Don't have an account? "
-                              TextColor="Black"/>
-                        <Span Text="Register"
-                              TextColor="Black"
+                        <Span Text="Bạn chưa có tài khoản? "
+                              TextColor="White"/>
+                        <Span Text="Đăng ký"
+                              TextColor="White"
                               TextDecorations="Underline"
                               FontAttributes="Bold"/>
                     </FormattedString>

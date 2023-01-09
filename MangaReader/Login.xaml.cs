@@ -21,7 +21,7 @@ namespace MangaReader
         {
             if (txtusername.Text == "admin" && txtpassword.Text == "123")
             {
-                Navigation.PushAsync(new Home());
+                await Navigation.PushAsync(new Home());
             }
             else
             {

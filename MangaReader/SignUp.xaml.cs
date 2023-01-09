@@ -17,9 +17,21 @@ namespace MangaReader
             InitializeComponent();
         }
 
-        private void btnLogin_Clicked(object sender, EventArgs e)
+        private async void btlogin_Tapped(object sender, EventArgs e)
         {
+                await Navigation.PushAsync(new Login());
+        }
 
+        private async void btSignUp_Clicked(object sender, EventArgs e)
+        {
+            if (txtTaoPassword.Text == txtNhapLaiMK.Text)
+            {
+                await Navigation.PushAsync(new Home());
+            }
+            else
+            {
+                DisplayAlert("Aww...", "Nhập sai mật khẩu, vui lòng nhập lại", "Ok");
+            }
         }
     }
 }

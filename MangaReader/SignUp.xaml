@@ -1,13 +1,91 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MangaReader.SignUp">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Button x:Name="btnLogin" Clicked="btnLogin_Clicked" Text="LOGIN"/>
+             x:Class="MangaReader.SignUp"
+             BackgroundImageSource="https://w0.peakpx.com/wallpaper/738/298/HD-wallpaper-anime-boy-anime-anime-boy-books-library-reading-sun.jpg">
+    <ScrollView Padding="0,20,0,20">
+        <StackLayout HorizontalOptions="FillAndExpand"
+                     VerticalOptions="CenterAndExpand"
+                     Margin="40,0"
+                     Spacing="10">
+            <Label Text="ComicCon"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   FontSize="46"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,20"/>
+
+            <Frame CornerRadius="5">
+                <StackLayout>
+                    <Entry Placeholder="Họ Tên" TextColor="Black"
+                   PlaceholderColor="Gray"
+                           ReturnType="Next"
+                           Keyboard="Chat"
+                           x:Name="txtHoTen"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame CornerRadius="5">
+                <StackLayout>
+                    <Entry Placeholder="Tên đăng nhập" TextColor="Black"
+                   PlaceholderColor="Gray"
+                           ReturnType="Next"
+                           Keyboard="Chat"
+                           x:Name="txtTenDangNhap"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame CornerRadius="5">
+                <StackLayout>
+                    <Entry Placeholder="Email" TextColor="Black"
+                   PlaceholderColor="Gray"
+                           ReturnType="Next"
+                           Keyboard="Email"
+                           x:Name="txtEmail"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame CornerRadius="5">
+                <StackLayout>
+                    <Entry Placeholder="Mật khẩu" TextColor="Black"
+                   PlaceholderColor="Gray" IsPassword="True"
+                           Keyboard="Chat"
+                           x:Name="txtTaoPassword"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame CornerRadius="5">
+                <StackLayout>
+                    <Entry Placeholder="Nhập lại mật khẩu" TextColor="Black"
+                   PlaceholderColor="Gray" IsPassword="True"
+                           Keyboard="Chat"
+                           x:Name="txtNhapLaiMK"/>
+                </StackLayout>
+            </Frame>
+
+            <Button x:Name="btSignUp"
+                    Text="Sign Up"
+                    BackgroundColor="Blue"
+                    TextColor="White"
+                    CornerRadius="50"
+                    BorderWidth="1.5"
+                    Clicked="btSignUp_Clicked"/>
+
+            <Label HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Bạn đã có tài khoản? "
+                              TextColor="White"/>
+                        <Span Text="Đăng nhập"
+                              TextColor="White"
+                              TextDecorations="Underline"
+                              FontAttributes="Bold"/>
+                    </FormattedString>
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="btlogin" Tapped="btlogin_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
         </StackLayout>
-    </ContentPage.Content>
+    </ScrollView>
 </ContentPage>

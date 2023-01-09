@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Document\\branchComicApp\\MangaReader\\MangaReader.csproj": {}
+    "C:\\Users\\HP\\Document\\comicappGit\\mobile\\MangaReader\\MangaReader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Document\\branchComicApp\\MangaReader\\MangaReader.csproj": {
+    "C:\\Users\\HP\\Document\\comicappGit\\mobile\\MangaReader\\MangaReader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Document\\branchComicApp\\MangaReader\\MangaReader.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Document\\comicappGit\\mobile\\MangaReader\\MangaReader.csproj",
         "projectName": "MangaReader",
-        "projectPath": "C:\\Users\\HP\\Document\\branchComicApp\\MangaReader\\MangaReader.csproj",
+        "projectPath": "C:\\Users\\HP\\Document\\comicappGit\\mobile\\MangaReader\\MangaReader.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Document\\branchComicApp\\MangaReader\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Document\\comicappGit\\mobile\\MangaReader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

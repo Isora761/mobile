@@ -2392,11 +2392,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Document\\branchComicApp\\MangaReader.Android\\MangaReader.Android.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Document\\comicappGit\\mobile\\MangaReader.Android\\MangaReader.Android.csproj",
       "projectName": "MangaReader.Android",
-      "projectPath": "C:\\Users\\HP\\Document\\branchComicApp\\MangaReader.Android\\MangaReader.Android.csproj",
+      "projectPath": "C:\\Users\\HP\\Document\\comicappGit\\mobile\\MangaReader.Android\\MangaReader.Android.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Document\\branchComicApp\\MangaReader.Android\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Document\\comicappGit\\mobile\\MangaReader.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2417,8 +2417,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\HP\\Document\\branchComicApp\\MangaReader\\MangaReader.csproj": {
-              "projectPath": "C:\\Users\\HP\\Document\\branchComicApp\\MangaReader\\MangaReader.csproj"
+            "C:\\Users\\HP\\Document\\comicappGit\\mobile\\MangaReader\\MangaReader.csproj": {
+              "projectPath": "C:\\Users\\HP\\Document\\comicappGit\\mobile\\MangaReader\\MangaReader.csproj"
             }
           }
         }
@@ -2430,6 +2430,14 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.6.1, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.6.1, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2012, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

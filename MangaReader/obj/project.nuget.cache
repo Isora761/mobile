@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+NeBp4Z4Ik9Tan6YiW9X1QqdvGMCLPmbHVk91wyIhRZ2BF9mJMzMMgcxIPnJWRR7gjNy/VbipHQ1MkSRQ+UCnQ==",
+  "dgSpecHash": "l6oMDWhEi8y3OcSNP8RDQKc6mVEfE5XFScWV66hsYcz1ux9j0r+VU/iuRHRfRgqK04Fw184HHMx3OzB++9sZeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Document\\branchComicApp\\MangaReader\\MangaReader.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Document\\comicappGit\\mobile\\MangaReader\\MangaReader.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

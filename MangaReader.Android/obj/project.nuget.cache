@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tfZdfszEKeIukH6qo7p0YhdH7hutcd3ep2p4RqyrcDntt5ISslnuICrat7FWuqfFfJn9iSaw8/rjUpqdhPS3hw==",
+  "dgSpecHash": "l8lPplT+4UIZpkW0aOzAX8Brn1k0eqi2ISMVel+tMV60QQGeRy8Fm9gZIWV2yyACC2j5yXwAN5t1SRol/V4UXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Document\\branchComicApp\\MangaReader.Android\\MangaReader.Android.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Document\\comicappGit\\mobile\\MangaReader.Android\\MangaReader.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

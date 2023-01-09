@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "NqHi5yesMg/r3ZfyZ5TU9HsevaGOf6lTHJp/01wW8Or3fZvSbSO1VHD+ywqXLBKErur4uAlAIlZDpOGI2ZIb2w==",
+  "dgSpecHash": "eXZIDXI0cArh+I5oFuvaMqmYImPy2+szZYECJAWRXEvqCHT2NSPulEg8yAVvhYNXOPKqfDHalfinA49IS+nP+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\mobile\\MangaReader\\MangaReader.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Document\\comicappGit\\DuongMinh12\\mobile\\MangaReader\\MangaReader.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\xamarin.essentials\\1.7.4\\xamarin.essentials.1.7.4.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\xamarin.forms\\5.0.0.2545\\xamarin.forms.5.0.0.2545.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\xamarin.essentials\\1.7.4\\xamarin.essentials.1.7.4.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\xamarin.forms\\5.0.0.2545\\xamarin.forms.5.0.0.2545.nupkg.sha512"
   ],
   "logs": []
 }
